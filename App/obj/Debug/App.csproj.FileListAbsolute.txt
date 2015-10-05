@@ -30,3 +30,5 @@ c:\users\suba\documents\UrlShortnr\App\bin\System.Web.WebPages.Razor.xml
 c:\users\suba\documents\UrlShortnr\App\obj\Debug\App.csprojResolveAssemblyReference.cache
 c:\users\suba\documents\UrlShortnr\App\obj\Debug\App.dll
 c:\users\suba\documents\UrlShortnr\App\obj\Debug\App.pdb
+c:\users\suba\documents\UrlShortnr\App\bin\EntityFramework.SqlServer.dll
+c:\users\suba\documents\UrlShortnr\App\bin\EntityFramework.SqlServer.xml
