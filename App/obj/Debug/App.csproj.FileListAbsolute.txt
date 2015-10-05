@@ -32,3 +32,5 @@ c:\users\suba\documents\UrlShortnr\App\obj\Debug\App.dll
 c:\users\suba\documents\UrlShortnr\App\obj\Debug\App.pdb
 c:\users\suba\documents\UrlShortnr\App\bin\EntityFramework.SqlServer.dll
 c:\users\suba\documents\UrlShortnr\App\bin\EntityFramework.SqlServer.xml
+c:\users\suba\documents\UrlShortnr\App\obj\Debug\App.Migrations.Initial.resources
+c:\users\suba\documents\UrlShortnr\App\obj\Debug\App.csproj.GenerateResource.Cache

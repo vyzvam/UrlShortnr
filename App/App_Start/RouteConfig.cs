@@ -14,10 +14,16 @@ namespace App
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "ShortKeys",
+                url: "{id}",
+                defaults: new { controller = "Home", action = "Index" }
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
+            );        
         }
     }
 }

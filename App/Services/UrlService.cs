@@ -66,8 +66,7 @@ namespace App.Services
             return _context.SaveChanges();
 
         }
-
-      
+     
 
         public int Delete(int id)
         {
@@ -75,5 +74,13 @@ namespace App.Services
             _urlShort.Delete(unit);
             return _context.SaveChanges();
         }
+
+        public string RandomString(int length)
+        {
+            const string characters = "BCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~:/?#[]@!$&'()*+,;=";
+            var random = new Random();
+            return new string(Enumerable.Repeat(characters, length).Select(s => s[random.Next(s.Length)]).ToArray());
+        }    
+    
     }
 }
